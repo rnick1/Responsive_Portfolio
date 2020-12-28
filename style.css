@@ -1,3 +1,15 @@
 .text_margin{
     margin-left: 10px;
 }
+
+.flex{
+    display: flex;
+}
+
+.card-background{
+    background-color: #b04545;
+}
+
+.webpage-background{
+    background-color: #bbbbbb;
+}
