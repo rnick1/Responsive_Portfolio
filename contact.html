@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: #bbbbbb;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color:grey;">
         <a class="navbar-brand" href="#"><b>Nick Rider</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,48 +32,56 @@
         </div>
     </nav>
 
-    <div class="row" style="background-color: #bbbbbb;">
+    <div class="container">
+      <div class="row" style="background-color: #bbbbbb;"></div>
       <br>
-    </div>
-
-    <div class="row" style="background-color: #bbbbbb;">
-      <div class="container-sm" style="background-color: #AAAAAA; margin-left: 10%; margin-right: 50%; margin-top: 5%; margin-bottom: 6%;">
-        <h1>Contact Me</h1>
-        <form>
-          <div class="row">
-            <div class="col">
-              <label for="First name" class="column">First Name</label>
-              <input type="text" class="form-control" placeholder="First name">
+      <div class="row" style="background-color: #bbbbbb;">
+        <div class="col-xs-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-md-7 col-lg-6">
+          <div class="card mb-3" style="background-color: #AAAAAA;">
+            <div class="row no-gutters">
+              <h1 class="card-title" style="margin-left: 30%;">Contact Me</h1>
+                <div class="card-body">
+                  <form>
+                    <div class="row">
+                      <div class="col">
+                        <label for="First name" class="column">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <label for="Last name" class="column">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="margin-bottom: 5px;">Submit</button>
+                  </form>
+                </div>
             </div>
-            <div class="col">
-              <label for="Last name" class="column">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
           </div>
-          <br>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="margin-bottom: 5px;">Submit</button>
-        </form>
+        </div>
+        <div class="col-xs-1 col-md-4 col-lg-5"></div>
       </div>
+      <div class="row" style="height: 145px;"></div>
     </div>
-
-    <div class="row" style="background-color: #bbbbbb;">
-      <br>
-    </div>
-
 
     <footer class="footer footer-dark bg-dark" style="background-color: grey;">
       <div class="container text-center">
         <span class="text-muted"><b>Nick Rider</b></span>
       </div>
     </footer>
+
+
+
+
 
 </body>
 </html>
