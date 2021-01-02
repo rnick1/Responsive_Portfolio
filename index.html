@@ -13,13 +13,14 @@
 </head>
 
 <body>
+  <!--This is the navbar. I kept it outside of the container so that it will stretch the full length of the page.-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand"><b>Nick Rider</b></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <section class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav"><!--The list items below are all links to the relevant HTML's. Because "active" is in the class, the link that corresponds with the page the viewer is on will look different.-->
             <li class="nav-item active">
               <a class="nav-link" href="index.html">About</a>
             </li>
@@ -33,18 +34,18 @@
         </section>
     </nav>
 
-    <section class="container">
+    <section class="container"><!--This allows me to use the grid system for the following content.-->
       <section class="row-A"></section>
       <br>
       <section class="row-A">
-        <section class="col-xs-1 col-md-1 col-lg-2"></section>
-        <section class="col-xs-10 col-md-7 col-lg-6">
+        <section class="col-xs-1 col-md-1 col-lg-2"></section><!--First column. Note: each column is set to respond slightly differently to different screen sizes.-->
+        <section class="col-xs-10 col-md-7 col-lg-6"><!--Second column-->
           <section class="card-index mb-3">
             <section class="row no-gutters">
               <h1 class="card-title">About Me</h1>
                 <section class="card-body">
                   <p>
-                    <img class="index-img img-thumbnail float-left mr-2 mb-1"  src="Assets\Images\IMG_0720.jpg" alt="Nick Rider">
+                    <img class="index-img img-thumbnail float-left mr-2 mb-1"  src="Assets\Images\About-Home Page Photo.jpg" alt="Nick Rider">
                     "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi 
                     sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis 
                     est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis 
@@ -57,11 +58,11 @@
             </section>
           </section>
         </section>
-        <div class="col-xs-1 col-md-4 col-lg-4"></div>
+        <div class="col-xs-1 col-md-4 col-lg-4"></div><!--Third column-->
       </section>
     </section>
 
-    <footer class="footer footer-dark bg-dark">
+    <footer class="footer footer-dark bg-dark"><!--Like the navbar, I placed the footer outside of the container so it can stretch across the page.-->
       <section class="container text-center">
         <span class="text-muted"><b>Nick Rider</b></span>
       </section>
