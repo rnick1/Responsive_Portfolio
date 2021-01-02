@@ -24,7 +24,9 @@
 
 -It took me awhile to get used to the grid system because at first I did not realize that having a container automatically adds space to both sides of the page. The central card on each of the three pages was darker than the surrounding columns and rows to draw the reader's eye to the content.
 
--I have no copyright information, so I just added the footer with my name in faded lettering.
+-I have no copyright information, so I just added the footer with my name.
+
+-I went through towards the end of the project and replaced '''div''' with '''section''' tags where appropriate as well as other steps that seemed to help with the overall semantics of the webpages.
 
 -The main bootstrap features I used were: navbars, containers, cards, and footers.
 
