@@ -34,15 +34,15 @@
 
 ## Here is the About/Home page:
 
-![image](Assets\Images\Screenshot (31).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(31).png)
 
 ## Here is the Portfolio page:
 
-![image](Assets\Images\Screenshot (32).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(32).png)
 
 ## Here is a screenshot of the Contact page:
 
-![image](Assets\Images\Screenshot (33).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(33).png)
 
 ## Overall, this was a very fun assignment! I feel comfortable using bootstrap and making webpages responsive to different screen sizes. I also feel even more confident with my HTML, CSS, and GitBash terminal skills!
 
