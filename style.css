@@ -2,31 +2,36 @@ body{
     background-color: #bbbbbb;
 }
 
-.row-A{background-color: #bbbbbb;
+.row-A .col-xs-1{
+    background-color: #bbbbbb;
 }
 
-.card-index .card-contact{background-color: #aaaaaa;
+.card-index .card-contact{
+    background-color: #aaaaaa;
 }
 
-h1{margin-left: 30%;
+h1{
+    margin-left: 30%;
 }
 
-.index-img{width: 45%;
+.index-img{
+    width: 45%;
 }
 
-footer{background-color: grey;
+footer{
+    background-color: grey;
 }
 
-.col-xs-1{background-color: #bbbbbb;
+.col-xs-10{
+    background-color: #aaaaaa;
 }
 
-.col-xs-10{background-color: #aaaaaa;
+.card-img-top{
+    padding: 10px;
 }
 
-.card-img-top{padding: 10px;
-}
-
-.row-tall{height: 145px;
+.row-tall{
+    height: 145px;
 }
 
 
