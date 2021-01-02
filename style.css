@@ -1,20 +1,21 @@
-/* .text_margin{
-    margin-left: 10px;
-}
-
-.flex{
-    display: flex;
-}
-
-.card-background{
-    background-color: #b04545;
-}
-
-.webpage-background{
+body{
     background-color: #bbbbbb;
-} */
-
-.main-content {
-    background-image: url(Assets\Images\IMG_0811.JPG);
 }
+
+.row-A{background-color: #bbbbbb;
+}
+
+.card-index{background-color: #aaaaaa;
+}
+
+h1{margin-left: 30%;
+}
+
+.index-img{width: 45%;
+}
+
+
+
+
+
 
