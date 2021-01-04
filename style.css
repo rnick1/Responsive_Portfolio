@@ -46,10 +46,13 @@ footer{
     padding: 10px;
 }
 
+.contact-img{width: 55%;
+}
+
 /*I was playing with row height just to see what kind of mischief I could get into and decided I liked it.*/
 
 .row-tall{
-    height: 115px;
+    height: 105px;
 }
 
 
