@@ -48,4 +48,4 @@
 
 ## Overall, this was a very fun assignment! I feel comfortable using bootstrap and making webpages responsive to different screen sizes. I also feel even more confident with my HTML, CSS, and GitBash terminal skills!
 
-### Note: This website is live! The URL is: 
+### Note: This website is live! The URL is: https://rnick1.github.io/Responsive_Portfolio/index.html
