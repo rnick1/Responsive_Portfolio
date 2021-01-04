@@ -44,7 +44,7 @@
 
 ## Here is a screenshot of the Contact page:
 
-![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(34).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Contact.png)
 
 ## Overall, this was a very fun assignment! I feel comfortable using bootstrap and making webpages responsive to different screen sizes. I also feel even more confident with my HTML, CSS, and GitBash terminal skills!
 
