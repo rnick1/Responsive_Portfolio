@@ -26,7 +26,7 @@
 
 -I have no copyright information, so I just added the footer with my name.
 
--I went through towards the end of the project and replaced '''div''' with '''section''' tags where appropriate as well as other steps that seemed to help with the overall semantics of the webpages.
+-I went through towards the end of the project and replaced '''div''' with '''section''' tags where appropriate as well as other steps that seemed to help with the overall semantics of the webpages. When I used a HTML validation service (https://validator.w3.org/) I found that in many cases it didn't like the replacements that I chose for '''div'''. As a result, I had to go through and replace the tags I chose with something better. In some cases I had to leave '''div''' as it wasn't clear what I could use as an alternative.
 
 -The main bootstrap features I used were: navbars, containers, cards, and footers.
 
