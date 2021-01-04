@@ -36,11 +36,11 @@
 
 ## Here is the About/Home page:
 
-![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(31).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/About-Home.png)
 
 ## Here is the Portfolio page:
 
-![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Screenshot%20(32).png)
+![image](https://github.com/rnick1/Responsive_Portfolio/blob/main/Assets/Images/Portfolio.png)
 
 ## Here is a screenshot of the Contact page:
 
