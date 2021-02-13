@@ -1,115 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </head>
 
 <!--Most of the comments made on the About/Home page apply here. Note I used a special kind of format for the cards which aranged them automatically which saved me a lot of time!-->
 
 <body>
   <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand"><b>Nick Rider</b></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item ">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand"><b>Nick Rider</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </nav>
+  </nav>
 
-    <main class="container mt-2 mb-2">
-      <div class="row">
-        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-        <!--This column has all the content-->
-        <div class="col-xs-10 col-sm-9 col-md-8 col-lg-7">
-            <h2 class="text-center"><b>Portfolio</b></h2>
-            <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col mb-4">
-                  <!--Card-->
-                    <div class="card h-100">
-                        <img src="Assets/Images/01-html-css-git-homework-demo.png" class="card-img-top" alt="Homework Assignment">
-                          <section class="card-body">
-                            <h5 class="card-title">Web Development Student</h5>
-                            <p class="card-text">I am currently a student in a Trilogy Coding Bootcamp through the University of Washington.</p>
-                            <a href="https://rnick1.github.io/Code_Refactor/" class="btn btn-primary">Recent Work</a>
-                          </section>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                  <!--Card-->
-                    <div class="card h-100">
-                        <img src="Assets/Images/Portfolio-Remodeling.jpg" class="card-img-top" alt="Remodelling" style="padding: 10px;">
-                          <section class="card-body">
-                            <h5 class="card-title">Remodelling</h5>
-                            <p class="card-text">During the summer, I was priviledged to work on a remodelling project and gained skills 
-                                    working on foundations, siding, roofing, and framing.</p>
-                          </section>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                  <!--Card-->
-                    <div class="card h-100">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6lGWUXw6Und3lYIoZNfNXMC8hklWPfI9cA&usqp=CAU" class="card-img-top" alt="Civil Air Patrol">
-                          <section class="card-body">
-                            <h5 class="card-title">Civil Air Patrol Officer</h5>
-                            <p class="card-text">As a teen and into my twenties I volunteered with the Civil Air Patrol and was priviledged to hold several leadership positions</p>
-                             <a href="https://www.gocivilairpatrol.com/" class="btn btn-primary">The Civil Air Patrol</a>
-                          </section>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                  <!--Card-->
-                    <div class="card h-100">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnI1C3cLFvHpEDPG51R3Hgavcp49gsSw5oOQ&usqp=CAU" class="card-img-top" alt="Chess Board">
-                          <section class="card-body">
-                            <h5 class="card-title">Corporate Manager</h5>
-                            <p class="card-text">Prior to COVID-19 I worked with a company called Chess4Life as a corporate manager.</p>
-                            <a href="https://chess4life.com/" class="btn btn-primary">Chess4Life</a>
-                          </section>
-                    </div>
-                </div>
-                <div class="col mb-4">
-                  <!--Card-->
-                    <div class="card h-100">
-                        <img src="https://www.nicholasrider.com/images/americastrueheroes_book2.jpg" class="card-img-top" alt="America's True Heroes Volume II">
-                          <section class="card-body">
-                            <h5 class="card-title">Author and Publisher</h5>
-                            <p class="card-text">Between the ages of eleven and fifteen I wrote two books in honor of American veterans.</p>
-                            <a href="https://www.nicholasrider.com/" class="btn btn-primary">America's True Heroes</a>
-                          </section>
-                    </div>
-                </div>
+  <main class="container mt-2 mb-2">
+    <div class="row">
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      <!--This column has all the content-->
+      <div class="col-xs-10 col-sm-9 col-md-8 col-lg-7">
+        <h2 class="text-center"><b>Portfolio</b></h2>
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col mb-4">
+            <!--Card-->
+            <div class="card h-100">
+              <img src="Assets/Images/Meal_Planner.png" class="card-img-top" id="recent" alt="Homework Assignment">
+              <section class="card-body">
+                <h5 class="card-title">Full-stack Web Development Student</h5>
+                <p class="card-text">I am currently a student in a Trilogy Coding Bootcamp through the University of
+                  Washington. In my most recent project, I teamed up with three of my colleagues to create a basic
+                  meal planner. </p>
+                <a href="https://rsowald.github.io/MealPlanner/" class="btn btn-primary">Recent Work</a>
+              </section>
             </div>
-        </div>    
-        <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
-      </div>
-    </main>
-
-    <footer class="footer footer-dark bg-dark">
-        <div class="container text-center">
-          <span class="text-muted"><b>Nick Rider</b></span>
+          </div>
+          <div class="col mb-4">
+            <!--Card-->
+            <div class="card h-100">
+              <img src="Assets/Images/Portfolio-Remodeling.jpg" class="card-img-top" alt="Remodelling"
+                style="padding: 10px;">
+              <section class="card-body">
+                <h5 class="card-title">Remodelling</h5>
+                <p class="card-text">During the summer, I was priviledged to work on a remodelling project and gained
+                  skills
+                  working on foundations, siding, roofing, and framing.</p>
+              </section>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <!--Card-->
+            <div class="card h-100">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6lGWUXw6Und3lYIoZNfNXMC8hklWPfI9cA&usqp=CAU"
+                class="card-img-top" alt="Civil Air Patrol">
+              <section class="card-body">
+                <h5 class="card-title">Civil Air Patrol Officer</h5>
+                <p class="card-text">As a teen and into my twenties I volunteered with the Civil Air Patrol and was
+                  priviledged to hold several leadership positions</p>
+                <a href="https://www.gocivilairpatrol.com/" class="btn btn-primary">The Civil Air Patrol</a>
+              </section>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <!--Card-->
+            <div class="card h-100">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnI1C3cLFvHpEDPG51R3Hgavcp49gsSw5oOQ&usqp=CAU"
+                class="card-img-top" alt="Chess Board">
+              <section class="card-body">
+                <h5 class="card-title">Corporate Manager</h5>
+                <p class="card-text">Prior to COVID-19 I worked with a company called Chess4Life as a corporate manager.
+                </p>
+                <a href="https://chess4life.com/" class="btn btn-primary">Chess4Life</a>
+              </section>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <!--Card-->
+            <div class="card h-100">
+              <img src="https://www.nicholasrider.com/images/americastrueheroes_book2.jpg" class="card-img-top"
+                alt="America's True Heroes Volume II">
+              <section class="card-body">
+                <h5 class="card-title">Author and Publisher</h5>
+                <p class="card-text">Between the ages of eleven and fifteen I wrote two books in honor of American
+                  veterans.</p>
+                <a href="https://www.nicholasrider.com/" class="btn btn-primary">America's True Heroes</a>
+              </section>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+      <div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
+    </div>
+  </main>
+
+  <footer class="footer footer-dark bg-dark">
+    <div class="container text-center">
+      <span class="text-muted"><b>Nick Rider</b></span>
+    </div>
+  </footer>
 </body>
+
 </html>
